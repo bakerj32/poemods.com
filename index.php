@@ -15,7 +15,7 @@
 		$cat_armors = array('helmet', 'gloves', 'boots', 'chest', 'shield', 'helmet');
 		$result = array_search($item_type, $cat_armors);
 		if($result){ return True;}
-		// WTF...
+		// ATTN
 		else if($item_type == 'helmet'){ return True; }
 		else{return False;}
 
